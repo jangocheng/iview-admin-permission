@@ -1,0 +1,94 @@
+[
+    {
+        "path": "/test",
+        "icon": "key",
+        "name": "test",
+        "title": "测试页面",
+        "component": "Main",
+        "isMenu": 1,
+        "children": [
+            { 
+                "path": "index", 
+                "icon": "key",
+                "title": "测试页面", 
+                "name": "test_index",
+                "component": "test/test",
+                "isMenu": 1
+            }
+        ]
+    },
+    {
+        "path": "/sys",
+        "icon": "android-checkbox",
+        "name": "sys",
+        "title": "系统管理",
+        "component": "Main",
+        "isMenu": 1,
+        "children": [
+            {
+                "path": "user",
+                "icon": "compose",
+                "name": "userList",
+                "title": "用户列表",
+                "component": "user/list",
+                "isMenu": 1
+            },
+            {
+                "path": "user/add",
+                "icon": "",
+                "name": "userAdd",
+                "title": "新增用户",
+                "component": "user/add",
+                "isMenu": 0
+            },
+            {
+                "path": "user/edit",
+                "icon": "",
+                "name": "userEdit",
+                "title": "修改用户",
+                "component": "user/add",
+                "isMenu": 0
+            },
+            {
+                "path": "",
+                "icon": "",
+                "name": "userDel",
+                "title": "删除用户",
+                "component": "",
+                "isMenu": 0
+            },
+            {
+                "path": "",
+                "icon": "",
+                "name": "userPrint",
+                "title": "打印用户",
+                "component": "",
+                "isMenu": 0
+            },
+            {
+                "path": "",
+                "icon": "",
+                "name": "userExcel",
+                "title": "导出用户",
+                "component": "",
+                "isMenu": 0
+            },
+            { 
+                "path": "test", 
+                "icon": "compose",
+                "name": "testList",
+                "title": "测试页面", 
+                "component": "test/test",
+                "isMenu": 1
+            },
+            { 
+                "path": "test/add", 
+                "icon": "compose",
+                "name": "testAdd",
+                "title": "测试页面", 
+                "component": "test/test",
+                "isMenu": 1
+            }
+        ]
+    }
+]
